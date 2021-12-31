@@ -43,4 +43,11 @@ func main() {
 	fmt.Println("After Encryption: ", rstring)
 	rstring = rot.Rot18(rstring)
 	fmt.Println("After Decryption: ", rstring)
+
+	fmt.Println("Before Encryption: ", rstring)
+	rstring = rot.Rot47(rstring)
+	fmt.Println("After Encryption: ", rstring)
+	rstring = rot.Rot47(rstring)
+	fmt.Println("After Decryption: ", rstring)
+
 }

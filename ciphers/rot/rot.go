@@ -49,3 +49,17 @@ func Rot18(s string) string {
 	//rot 18 is just rot5+rot13
 	return (Rot13(Rot5(s)))
 }
+
+func Rot47(s string) string {
+	var es strings.Builder
+	es.Grow(len(s))
+
+	for _, v := range s {
+		if v >= '!' && v <= '~' {
+			es.WriteRune(rotate(v, 47, '!'))
+		} else {
+			es.WriteRune(v)
+		}
+	}
+	return es.String()
+}
