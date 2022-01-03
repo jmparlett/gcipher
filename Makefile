@@ -1,2 +1,2 @@
-gocipher: gocipher.go
-	go run gocipher.go
+gcipher: main.go
+	go run main.go
