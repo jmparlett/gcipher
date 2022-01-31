@@ -90,7 +90,7 @@ for i in p1:
 We can use any the below algorithms to generate random permutation. Essentially your just performing n random swap operations on an array
 to create a new mapping. 
 
-![perm algos](randomperms_algo.png)
+![perm algos](imgs/randomperms_algo.png)
 
 Taken from "Generating Random Permutations", a PHD thesis by Jorg Arndt.
 
